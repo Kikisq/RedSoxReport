@@ -7,4 +7,4 @@ Sometimes you forget to check the game schedule until you notice the horde of pe
 
 To avoid plastering a copy of the schedule everywhere, I designed a web scraper to search and aggregate Fenway Park event info, run on AWS Lambda.\
 Lambda function calls are triggered daily (@ 9am EST) through AWS Cloudwatch Events.\
-Amazon SES is used to send emails, notifying recipients of Fenway Park events occuring later that day.
+Amazon SES is used to send emails, notifying recipients of Fenway Park events occurring later that day.
